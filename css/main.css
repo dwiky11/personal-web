@@ -57,6 +57,22 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
+
+  
+}
+
+.button {
+  background-color: var(--prymary-color-base);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: var(--body-size);
+}
+
+.button:hover {
+  background-color: var(--prymary-color-dark);
+  cursor: pointer;
 }
 
 /*==================== BASE ====================*/
@@ -592,6 +608,19 @@ footer {
     --h6-font-size: 1.25rem;
     --subtilte-size: 1.125rem;
     --body-size: 1rem;
+  }
+
+  .button {
+    background-color: var(--prymary-color-base);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: var(--prymary-color-dark);
+    cursor: pointer;
   }
 
   header {
