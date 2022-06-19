@@ -474,7 +474,7 @@ input {
 .desc_card {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
   padding: var(--mb-1);
   margin-bottom: var(--mb-1);
 }
@@ -490,6 +490,7 @@ input {
 }
 
 .bx-chevron-right {
+  display: none;
   color: var(--text-color-base);
   font-size: 32px;
   opacity: 0;
@@ -501,6 +502,7 @@ input {
 }
 
 .portfolio_card:hover .bx-chevron-right {
+  display: flex;
   opacity: 100%;
   font-size: 32px;
   transform: translateX(0);
