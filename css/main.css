@@ -448,7 +448,8 @@ input {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: var(--mb-1-5);
+  gap: var(--mb-0-75);
+  margin-bottom: var(--mb-3);
 }
 
 .cards {
