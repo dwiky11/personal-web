@@ -48,6 +48,11 @@
   --mb-3: 3rem;
 }
 
+p.body {
+    color: var(--text-color-light1);
+}
+
+
 section {
   transition: 0.2s ease-in-out;
 }
@@ -67,11 +72,18 @@ section {
   margin-bottom: var(--mb-3);
 }
 
+.hero_text p {
+    user-select: none;
+    pointer-events: none;
+}
+
 .hero_title {
   display: flex;
   flex-direction: column;
   gap: var(--mb-2-5);
   margin-bottom: var(--mb-1-5);
+  user-select: none;
+  pointer-events: none;
 }
 
 .hero_text p.body {
@@ -85,6 +97,8 @@ section {
 
 .feature {
     margin: var(--header-height) 0;
+    user-select: none;
+    pointer-events: none;
 }
 
 .features_cards {
@@ -118,6 +132,8 @@ section {
   flex-direction: column;
   gap: var(--mb-3);
   justify-items: center;
+  user-select: none;
+  pointer-events: none;
 }
 
 .content_text {
@@ -154,6 +170,8 @@ section {
 
   .hero img {
     width: 40%;
+    user-select: none;
+    pointer-events: none;
   }
 
   .card_text {
