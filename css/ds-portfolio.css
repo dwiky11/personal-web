@@ -74,8 +74,9 @@ section {
   margin-bottom: var(--mb-1-5);
 }
 
-p.body {
+.hero_text p.body {
   color: var(--text-color-light1);
+  margin-bottom: var(--mb-2);
 }
 
 .dark .hero {
